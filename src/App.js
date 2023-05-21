@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+//! your first Component
+// import { Profile, Gallery, Congratulations } from "./components/hw-1";
 
+//! import and Export
+// import { Gallery } from "./components/ImpAndExgallery";
+// import { Profile } from "./components/ImpAndExprofile";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* you first Component */}
+
+      {/*    <Profile /> */}
+      {/*    <Gallery /> */}
+      {/* <Congratulations /> */}
+
+      {/* Import and Export */}
+
+      {/* <Profile /> */}
+      {/* <Gallery /> */}
+
+      
     </div>
   );
 }
