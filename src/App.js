@@ -3,23 +3,21 @@ import "./App.css";
 // import { Profile, Gallery, Congratulations } from "./components/hw-1";
 
 //! import and Export
-// import { Gallery } from "./components/ImpAndExgallery";
+import { Gallery } from "./components/ImpAndExgallery";
 // import { Profile } from "./components/ImpAndExprofile";
 function App() {
   return (
     <div className="App">
       {/* you first Component */}
 
-      {/*    <Profile /> */}
-      {/*    <Gallery /> */}
+      {/* <Profile /> */}
+      <Gallery />
       {/* <Congratulations /> */}
 
       {/* Import and Export */}
 
       {/* <Profile /> */}
       {/* <Gallery /> */}
-
-      
     </div>
   );
 }
